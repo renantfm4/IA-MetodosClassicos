@@ -1,0 +1,53 @@
+======================================================================
+RELATÓRIO DE RESULTADOS - PROJETO 5: CSP (SUDOKU)
+======================================================================
+
+=== Puzzles gerados (solução única), 10 por nível ===
+Fácil          média de pistas = 38.0
+Médio          média de pistas = 30.0
+Difícil        média de pistas = 26.0
+Muito difícil  média de pistas = 24.1
+
+=== Experimento 1: puzzle de exemplo (23 pistas) ===
+BT           resolvido=True  atribuições= 150002 retrocessos= 149944 t=   304.13 ms
+FC           resolvido=True  atribuições=   6206 retrocessos=   6148 t=    39.04 ms
+FC+MRV       resolvido=True  atribuições=    838 retrocessos=    780 t=    19.03 ms
+MAC+MRV      resolvido=True  atribuições=    357 retrocessos=    299 t=    16.53 ms
+MAC+AllDiff  resolvido=True  atribuições=     58 retrocessos=      0 t=    19.93 ms
+Min-conflitos resolvido=False passos=  20000 conflitos finais=6 t=370.17 ms
+
+=== Experimento 2: média em 10 puzzles por nível ===
+-- Fácil (38.0 pistas) --
+BT           resolvidos=  100% atribuições=    3265.6 retrocessos=    3222.6 t=     8.08 ms
+FC           resolvidos=  100% atribuições=     191.5 retrocessos=     148.5 t=     1.38 ms
+FC+MRV       resolvidos=  100% atribuições=      45.0 retrocessos=       2.0 t=     1.84 ms
+MAC+MRV      resolvidos=  100% atribuições=      43.1 retrocessos=       0.1 t=     1.64 ms
+MAC+AllDiff  resolvidos=  100% atribuições=      43.0 retrocessos=       0.0 t=    24.66 ms
+Min-conflitos resolvidos=   50% passos=13443 conflitos finais (média)=2.1 t=251.16 ms
+-- Médio (30.0 pistas) --
+BT           resolvidos=  100% atribuições=   30035.1 retrocessos=   29984.1 t=    76.81 ms
+FC           resolvidos=  100% atribuições=    1318.4 retrocessos=    1267.4 t=    12.62 ms
+FC+MRV       resolvidos=  100% atribuições=      75.0 retrocessos=      24.0 t=     3.24 ms
+MAC+MRV      resolvidos=  100% atribuições=      56.1 retrocessos=       5.1 t=     5.71 ms
+MAC+AllDiff  resolvidos=  100% atribuições=      51.0 retrocessos=       0.0 t=    50.00 ms
+Min-conflitos resolvidos=   30% passos=18076 conflitos finais (média)=2.5 t=274.04 ms
+-- Difícil (26.0 pistas) --
+BT           resolvidos=   60% atribuições=  181742.6 retrocessos=  181698.8 t=   338.01 ms
+FC           resolvidos=  100% atribuições=    7815.1 retrocessos=    7760.1 t=    36.87 ms
+FC+MRV       resolvidos=  100% atribuições=     119.6 retrocessos=      64.6 t=     2.59 ms
+MAC+MRV      resolvidos=  100% atribuições=      70.2 retrocessos=      15.2 t=     9.17 ms
+MAC+AllDiff  resolvidos=  100% atribuições=      55.3 retrocessos=       0.3 t=    41.68 ms
+Min-conflitos resolvidos=    0% passos=20000 conflitos finais (média)=4.0 t=241.60 ms
+-- Muito difícil (24.1 pistas) --
+BT           resolvidos=   70% atribuições=  201320.4 retrocessos=  201271.9 t=   344.64 ms
+FC           resolvidos=  100% atribuições=    7361.3 retrocessos=    7304.4 t=    69.35 ms
+FC+MRV       resolvidos=  100% atribuições=     256.4 retrocessos=     199.5 t=     6.07 ms
+MAC+MRV      resolvidos=  100% atribuições=     123.2 retrocessos=      66.3 t=     5.91 ms
+MAC+AllDiff  resolvidos=  100% atribuições=      59.0 retrocessos=       2.1 t=    18.37 ms
+Min-conflitos resolvidos=    0% passos=20000 conflitos finais (média)=4.2 t=223.86 ms
+
+=== Experimento 3: propagação inicial, sem busca (10 puzzles por nível) ===
+Fácil          só pistas: 43.2 células, 0% resolvidos | AC-3: 77.2 células, 90% resolvidos | AC-3+AllDiff: 81.0 células, 100% resolvidos
+Médio          só pistas: 32.5 células, 0% resolvidos | AC-3: 49.9 células, 30% resolvidos | AC-3+AllDiff: 81.0 células, 100% resolvidos
+Difícil        só pistas: 27.4 células, 0% resolvidos | AC-3: 37.4 células, 10% resolvidos | AC-3+AllDiff: 68.9 células, 70% resolvidos
+Muito difícil  só pistas: 25.0 células, 0% resolvidos | AC-3: 31.4 células, 10% resolvidos | AC-3+AllDiff: 55.9 células, 40% resolvidos

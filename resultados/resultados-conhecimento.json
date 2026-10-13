@@ -1,0 +1,68 @@
+{
+  "mundos": {
+    "total": 300,
+    "solucionaveis": 258
+  },
+  "exemplo": {
+    "resultado": "vitoria",
+    "passos": 24,
+    "consultas": 58,
+    "pontos": 976,
+    "visitadas": 13,
+    "seguras": 13,
+    "perigosas": 3
+  },
+  "inferencia": {
+    "0-4": {
+      "consultas": 664,
+      "tt_ms": 0.10289638544510313,
+      "res_ms": 0.041498343438959924,
+      "dpll_ms": 0.08571852404530951,
+      "tt_puladas": 0,
+      "res_puladas": 0
+    }
+  },
+  "inferencia_resumo": {
+    "consultas": 664,
+    "comparadas": 1328,
+    "discordancias": 0
+  },
+  "agentes": {
+    "KB cauteloso (c/ unicidade)": {
+      "vitoria": 34.333333333333336,
+      "desistiu": 65.66666666666667,
+      "morte": 0.0,
+      "vitoria_entre_solucionaveis": 39.92248062015504,
+      "pontos": 338.3333333333333,
+      "passos": 5.0,
+      "consultas": 17.79,
+      "falsos_seguros": 0
+    },
+    "KB cauteloso (sem unicidade)": {
+      "vitoria": 31.666666666666668,
+      "desistiu": 68.33333333333333,
+      "morte": 0.0,
+      "vitoria_entre_solucionaveis": 36.82170542635659,
+      "pontos": 311.93333333333334,
+      "passos": 4.733333333333333,
+      "consultas": 18.35,
+      "falsos_seguros": 0
+    },
+    "KB arriscado (c/ unicidade)": {
+      "vitoria": 49.333333333333336,
+      "desistiu": 0.6666666666666666,
+      "morte": 50.0,
+      "vitoria_entre_solucionaveis": 57.36434108527132,
+      "pontos": -13.7,
+      "passos": 7.033333333333333,
+      "consultas": 22.613333333333333,
+      "falsos_seguros": 0
+    },
+    "Aleatório (sem KB)": {
+      "ouro": 23.333333333333332,
+      "desistiu": 0.0,
+      "morte": 76.66666666666667,
+      "passos": 5.306666666666667
+    }
+  }
+}

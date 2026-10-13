@@ -1,0 +1,183 @@
+{
+  "exemplo": {
+    "BFS": {
+      "passos": 58,
+      "custo": 106,
+      "expandidos": 642,
+      "mem_max": 24,
+      "tempo_ms": 9.671299951151013
+    },
+    "DFS": {
+      "passos": 262,
+      "custo": 434,
+      "expandidos": 446,
+      "mem_max": 210,
+      "tempo_ms": 9.47920000180602
+    },
+    "IDDFS": {
+      "passos": 58,
+      "custo": 106,
+      "expandidos": 114576,
+      "mem_max": 77,
+      "tempo_ms": 1901.348700048402
+    },
+    "UCS": {
+      "passos": 58,
+      "custo": 70,
+      "expandidos": 628,
+      "mem_max": 30,
+      "tempo_ms": 6.57540000975132
+    },
+    "BDS": {
+      "passos": 58,
+      "custo": 94,
+      "expandidos": 511,
+      "mem_max": 38,
+      "tempo_ms": 4.84329997561872
+    },
+    "DLS (limite curto)": {
+      "passos": null,
+      "custo": null,
+      "expandidos": 1098,
+      "mem_max": 38,
+      "tempo_ms": 10.818500071763992
+    }
+  },
+  "dls_limites": {
+    "10": {
+      "achou": false,
+      "passos": null,
+      "custo": null,
+      "expandidos": 48
+    },
+    "30": {
+      "achou": false,
+      "passos": null,
+      "custo": null,
+      "expandidos": 1223
+    },
+    "50": {
+      "achou": false,
+      "passos": null,
+      "custo": null,
+      "expandidos": 4833
+    },
+    "57": {
+      "achou": false,
+      "passos": null,
+      "custo": null,
+      "expandidos": 6688
+    },
+    "58": {
+      "achou": true,
+      "passos": 58,
+      "custo": 106,
+      "expandidos": 5834
+    },
+    "100": {
+      "achou": true,
+      "passos": 100,
+      "custo": 180,
+      "expandidos": 538
+    },
+    "200": {
+      "achou": true,
+      "passos": 200,
+      "custo": 340,
+      "expandidos": 1002
+    }
+  },
+  "media_50": {
+    "BFS": {
+      "expandidos": 668.32,
+      "mem": 27.72,
+      "tempo_ms": 5.778275991324335,
+      "passos": 58.28,
+      "custo": 101.32,
+      "pct_otimo_passos": 100.0,
+      "pct_otimo_custo": 0.0
+    },
+    "DFS": {
+      "expandidos": 525.44,
+      "mem": 257.74,
+      "tempo_ms": 5.187430002260953,
+      "passos": 294.48,
+      "custo": 524.16,
+      "pct_otimo_passos": 0.0,
+      "pct_otimo_custo": 0.0
+    },
+    "IDDFS": {
+      "expandidos": 129824.12,
+      "mem": 87.88,
+      "tempo_ms": 1259.1401440021582,
+      "passos": 58.28,
+      "custo": 101.32,
+      "pct_otimo_passos": 100.0,
+      "pct_otimo_custo": 0.0
+    },
+    "UCS": {
+      "expandidos": 659.34,
+      "mem": 38.16,
+      "tempo_ms": 6.532991996500641,
+      "passos": 60.28,
+      "custo": 70.84,
+      "pct_otimo_passos": 36.0,
+      "pct_otimo_custo": 100.0
+    },
+    "BDS": {
+      "expandidos": 514.94,
+      "mem": 42.4,
+      "tempo_ms": 4.786191997118294,
+      "passos": 58.28,
+      "custo": 102.76,
+      "pct_otimo_passos": 100.0,
+      "pct_otimo_custo": 0.0
+    }
+  },
+  "escalabilidade": {
+    "tamanhos": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "expandidos": {
+      "BFS": [
+        73.8,
+        293.46666666666664,
+        668.0666666666667,
+        1179.2666666666667,
+        1843.2
+      ],
+      "DFS": [
+        65.2,
+        252.6,
+        540.6666666666666,
+        947.6,
+        1452.6
+      ],
+      "IDDFS": [
+        1609.0,
+        23435.733333333334,
+        129022.53333333334,
+        417360.3333333333,
+        1078675.8
+      ],
+      "UCS": [
+        67.8,
+        287.06666666666666,
+        664.4666666666667,
+        1171.4,
+        1833.0666666666666
+      ],
+      "BDS": [
+        51.6,
+        215.86666666666667,
+        507.4,
+        933.0666666666667,
+        1487.2
+      ]
+    }
+  }
+}

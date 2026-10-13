@@ -1,0 +1,88 @@
+{
+  "8puzzle": {
+    "Peças fora do lugar|astar": {
+      "expandidos_medio": 12381.44,
+      "expandidos_mediana": 7279.0,
+      "tempo_medio_ms": 398.76894099172205,
+      "custo_medio": 21.51,
+      "memoria_media": 5811.66
+    },
+    "Peças fora do lugar|greedy": {
+      "expandidos_medio": 772.63,
+      "expandidos_mediana": 662.0,
+      "tempo_medio_ms": 10.241028008749709,
+      "custo_medio": 49.45,
+      "memoria_media": 489.83
+    },
+    "Manhattan|astar": {
+      "expandidos_medio": 1177.57,
+      "expandidos_mediana": 782.5,
+      "tempo_medio_ms": 22.6763059978839,
+      "custo_medio": 21.51,
+      "memoria_media": 657.37
+    },
+    "Manhattan|greedy": {
+      "expandidos_medio": 274.24,
+      "expandidos_mediana": 258.0,
+      "tempo_medio_ms": 4.808279002318159,
+      "custo_medio": 42.99,
+      "memoria_media": 187.13
+    },
+    "Manhattan + Conf. Linear|astar": {
+      "expandidos_medio": 637.23,
+      "expandidos_mediana": 400.5,
+      "tempo_medio_ms": 26.09904500306584,
+      "custo_medio": 21.51,
+      "memoria_media": 369.87
+    },
+    "Manhattan + Conf. Linear|greedy": {
+      "expandidos_medio": 64.38,
+      "expandidos_mediana": 60.0,
+      "tempo_medio_ms": 2.4680589966010302,
+      "custo_medio": 31.37,
+      "memoria_media": 48.84
+    }
+  },
+  "8puzzle_exemplo": {
+    "estado": [
+      7,
+      6,
+      8,
+      5,
+      0,
+      4,
+      3,
+      2,
+      1
+    ],
+    "movimentos": 26
+  },
+  "por_dificuldade": {
+    "faixas": [
+      "0-12",
+      "13-18",
+      "19-24",
+      "25-40"
+    ],
+    "expandidos": {
+      "Peças fora do lugar": [
+        44.0,
+        1017.0714285714286,
+        9144.246376811594,
+        37056.75
+      ],
+      "Manhattan": [
+        17.0,
+        174.07142857142858,
+        908.231884057971,
+        3289.6875
+      ],
+      "Manhattan + Conf. Linear": [
+        17.0,
+        109.28571428571429,
+        493.9855072463768,
+        1755.6875
+      ]
+    }
+  }
+}

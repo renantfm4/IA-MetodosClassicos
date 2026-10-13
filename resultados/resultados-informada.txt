@@ -1,0 +1,26 @@
+======================================================================
+RELATÓRIO DE RESULTADOS - PROJETO 1: BUSCA INFORMADA
+======================================================================
+
+=== 8-Puzzle (100 instâncias aleatórias) ===
+Peças fora do lugar|astar              exp=  12381.4  t=  398.77 ms  custo=21.51
+Peças fora do lugar|greedy             exp=    772.6  t=   10.24 ms  custo=49.45
+Manhattan|astar                        exp=   1177.6  t=   22.68 ms  custo=21.51
+Manhattan|greedy                       exp=    274.2  t=    4.81 ms  custo=42.99
+Manhattan + Conf. Linear|astar         exp=    637.2  t=   26.10 ms  custo=21.51
+Manhattan + Conf. Linear|greedy        exp=     64.4  t=    2.47 ms  custo=31.37
+
+Por dificuldade: {'Peças fora do lugar': [44.0, 1017.0714285714286, 9144.246376811594, 37056.75], 'Manhattan': [17.0, 174.07142857142858, 908.231884057971, 3289.6875], 'Manhattan + Conf. Linear': [17.0, 109.28571428571429, 493.9855072463768, 1755.6875]}
+
+======================================================================
+DETALHAMENTO POR ALGORITMO E HEURÍSTICA:
+======================================================================
+Configuração                        | Exp. Médio | Mediana  | Tempo (ms) | Custo    | Memória 
+------------------------------------------------------------------------------------------
+Peças fora do lugar|astar           | 12381.4    | 7279.0   | 398.77     | 21.51    | 5811.7  
+Peças fora do lugar|greedy          | 772.6      | 662.0    | 10.24      | 49.45    | 489.8   
+Manhattan|astar                     | 1177.6     | 782.5    | 22.68      | 21.51    | 657.4   
+Manhattan|greedy                    | 274.2      | 258.0    | 4.81       | 42.99    | 187.1   
+Manhattan + Conf. Linear|astar      | 637.2      | 400.5    | 26.10      | 21.51    | 369.9   
+Manhattan + Conf. Linear|greedy     | 64.4       | 60.0     | 2.47       | 31.37    | 48.8    
+------------------------------------------------------------------------------------------

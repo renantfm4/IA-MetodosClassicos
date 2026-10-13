@@ -1,0 +1,35 @@
+======================================================================
+RELATÓRIO DE RESULTADOS - PROJETO 2: BUSCA NÃO INFORMADA
+======================================================================
+
+=== Experimento 1: labirinto 30x30 (exemplo) ===
+BFS                  passos=58 custo=106 | exp=642 | mem=24 | t=9.67 ms
+DFS                  passos=262 custo=434 | exp=446 | mem=210 | t=9.48 ms
+IDDFS                passos=58 custo=106 | exp=114576 | mem=77 | t=1901.35 ms
+UCS                  passos=58 custo=70 | exp=628 | mem=30 | t=6.58 ms
+BDS                  passos=58 custo=94 | exp=511 | mem=38 | t=4.84 ms
+DLS (limite curto)   sem solução | exp=1098 | mem=38 | t=10.82 ms
+
+--- DLS no mesmo labirinto (passos ótimos = 58) ---
+limite=  10  achou=False passos=None custo=None exp=48
+limite=  30  achou=False passos=None custo=None exp=1223
+limite=  50  achou=False passos=None custo=None exp=4833
+limite=  57  achou=False passos=None custo=None exp=6688
+limite=  58  achou=True  passos=58 custo=106 exp=5834
+limite= 100  achou=True  passos=100 custo=180 exp=538
+limite= 200  achou=True  passos=200 custo=340 exp=1002
+
+=== Experimento 2: média em 50 labirintos 30x30 ===
+Algoritmo|    Exp.|    Mem.| Tempo ms|  Passos|   Custo| %opt passos| %opt custo
+BFS     |   668.3|    27.7|     5.78|    58.3|   101.3|         100|          0
+DFS     |   525.4|   257.7|     5.19|   294.5|   524.2|           0|          0
+IDDFS   |129824.1|    87.9|  1259.14|    58.3|   101.3|         100|          0
+UCS     |   659.3|    38.2|     6.53|    60.3|    70.8|          36|        100
+BDS     |   514.9|    42.4|     4.79|    58.3|   102.8|         100|          0
+
+=== Experimento 3: escalabilidade (15 labirintos por tamanho) ===
+n= 10 BFS=74  DFS=65  IDDFS=1609  UCS=68  BDS=52
+n= 20 BFS=293  DFS=253  IDDFS=23436  UCS=287  BDS=216
+n= 30 BFS=668  DFS=541  IDDFS=129023  UCS=664  BDS=507
+n= 40 BFS=1179  DFS=948  IDDFS=417360  UCS=1171  BDS=933
+n= 50 BFS=1843  DFS=1453  IDDFS=1078676  UCS=1833  BDS=1487

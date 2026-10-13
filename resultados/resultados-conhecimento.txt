@@ -1,0 +1,24 @@
+======================================================================
+RELATÓRIO DE RESULTADOS - PROJETO 6: BANCO DE CONHECIMENTOS
+======================================================================
+
+=== 300 mundos 4x4 (poço com prob. 0.2) ===
+Mundos solucionáveis (ouro alcançável sem passar por perigo): 258 (86.0%)
+
+=== Experimento 1: mundo de exemplo (agente cauteloso, KB com unicidade) ===
+Poços: [(1, 4), (3, 4)] | Wumpus: (3, 2) | Ouro: (4, 4)
+Resultado: vitoria | passos=24 | consultas ao KB=58 | pontos=976
+Células visitadas=13 | provadas seguras=13 | provadas perigosas=3
+
+=== Experimento 2: motores de inferência (mesmas consultas, KB sem axioma de unicidade) ===
+Consultas coletadas: 664
+Respostas comparadas: 1328 | discordâncias com o DPLL: 0
+ Símbolos consultas |   TT (ms) |  RES (ms) | DPLL (ms)
+  0-4           664 |     0.103 |     0.041 |     0.086
+KB completa com unicidade: 108 cláusulas e 30 símbolos livres -> tabela-verdade teria 2^30 ≈ 1,07 bilhão de modelos
+
+=== Experimento 3: agentes nos 300 mundos ===
+KB cauteloso (c/ unicidade)    vitória= 34.3% (solucionáveis:  39.9%) desistiu= 65.7% morte=  0.0% pontos=  338.3 passos=  5.0 consultas=  17.8 falsos seguros=0
+KB cauteloso (sem unicidade)   vitória= 31.7% (solucionáveis:  36.8%) desistiu= 68.3% morte=  0.0% pontos=  311.9 passos=  4.7 consultas=  18.4 falsos seguros=0
+KB arriscado (c/ unicidade)    vitória= 49.3% (solucionáveis:  57.4%) desistiu=  0.7% morte= 50.0% pontos=  -13.7 passos=  7.0 consultas=  22.6 falsos seguros=0
+Aleatório (sem KB)             chegou ao ouro= 23.3% (sem voltar) desistiu=  0.0% morte= 76.7% passos=  5.3

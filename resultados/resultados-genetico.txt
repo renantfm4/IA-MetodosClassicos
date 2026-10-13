@@ -1,0 +1,41 @@
+======================================================================
+RELATÓRIO DE RESULTADOS - PROJETO 4: ALGORITMO GENÉTICO
+======================================================================
+
+=== Instância: 100 itens, capacidade 1150 (peso total 2876) ===
+Ótimo exato (PD): 1730 | Guloso por razão: 1724 (99.65%) | Busca aleatória (média de 30): 1617.7 (93.51%)
+
+=== Experimento 1: AG padrão (30 execuções) ===
+% do ótimo: média=98.79 desvio=0.27 melhor=99.42 pior=98.27 | achou o ótimo em 0% das execuções | 529 ms/execução
+AG ajustado {'pop': 200, 'geracoes': 500, 'restricao': 'penalidade'}: média=99.69 desvio=0.29 melhor=100.00 pior=99.42 | ótimo em 47% | 412 ms/execução
+
+=== Experimento 2: efeito dos parâmetros (20 execuções cada) ===
+-- Seleção --
+torneio (k=3)  média= 98.84% desvio=0.26 melhor=99.42% ótimo em   0% | 482 ms
+roleta         média= 96.79% desvio=0.62 melhor=98.27% ótimo em   0% | 397 ms
+-- Cruzamento --
+1 ponto        média= 98.87% desvio=0.29 melhor=99.42% ótimo em   0% | 326 ms
+2 pontos       média= 98.84% desvio=0.26 melhor=99.42% ótimo em   0% | 337 ms
+uniforme       média= 98.87% desvio=0.34 melhor=99.42% ótimo em   0% | 329 ms
+-- Mutação (pm × n) --
+0              média= 95.19% desvio=0.76 melhor=96.53% ótimo em   0% | 131 ms
+0,2            média= 96.97% desvio=0.73 melhor=98.27% ótimo em   0% | 293 ms
+1              média= 98.84% desvio=0.26 melhor=99.42% ótimo em   0% | 341 ms
+5              média= 97.41% desvio=0.27 melhor=97.92% ótimo em   0% | 330 ms
+20             média= 95.22% desvio=0.25 melhor=95.66% ótimo em   0% | 349 ms
+-- População --
+20             média= 97.57% desvio=0.46 melhor=98.27% ótimo em   0% | 285 ms
+50             média= 98.47% desvio=0.34 melhor=99.08% ótimo em   0% | 279 ms
+100            média= 98.84% desvio=0.26 melhor=99.42% ótimo em   0% | 312 ms
+200            média= 99.06% desvio=0.27 melhor=99.42% ótimo em   0% | 383 ms
+-- Elitismo / Restrição --
+elitismo 2     média= 98.84% desvio=0.26 melhor=99.42% ótimo em   0% | 304 ms
+sem elitismo   média= 98.24% desvio=0.27 melhor=98.84% ótimo em   0% | 297 ms
+reparo         média= 98.84% desvio=0.26 melhor=99.42% ótimo em   0% | 304 ms
+penalidade     média= 99.25% desvio=0.26 melhor=99.42% ótimo em   0% | 70 ms
+
+=== Experimento 3: tamanho da instância (10 execuções) ===
+n=  50 AG média=99.77% melhor=100.00% ótimo em  80% | guloso=96.66% | 193 ms
+n= 100 AG média=98.84% melhor=98.84% ótimo em   0% | guloso=99.65% | 310 ms
+n= 200 AG média=98.58% melhor=98.82% ótimo em   0% | guloso=99.32% | 573 ms
+n= 500 AG média=97.14% melhor=97.62% ótimo em   0% | guloso=99.68% | 1335 ms

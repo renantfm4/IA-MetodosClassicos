@@ -1,0 +1,258 @@
+{
+  "pistas": {
+    "Fácil": 38.0,
+    "Médio": 30.0,
+    "Difícil": 26.0,
+    "Muito difícil": 24.1
+  },
+  "exemplo": {
+    "BT": {
+      "resolvido": true,
+      "nos": 150002,
+      "retro": 149944,
+      "tempo_ms": 304.12929999874905
+    },
+    "FC": {
+      "resolvido": true,
+      "nos": 6206,
+      "retro": 6148,
+      "tempo_ms": 39.0384999991511
+    },
+    "FC+MRV": {
+      "resolvido": true,
+      "nos": 838,
+      "retro": 780,
+      "tempo_ms": 19.034799996006768
+    },
+    "MAC+MRV": {
+      "resolvido": true,
+      "nos": 357,
+      "retro": 299,
+      "tempo_ms": 16.53309999528574
+    },
+    "MAC+AllDiff": {
+      "resolvido": true,
+      "nos": 58,
+      "retro": 0,
+      "tempo_ms": 19.93429999856744
+    },
+    "Min-conflitos": {
+      "resolvido": false,
+      "passos": 20000,
+      "conflitos": 6,
+      "tempo_ms": 370.1749999963795
+    }
+  },
+  "niveis": {
+    "Fácil": {
+      "BT": {
+        "nos": 3265.6,
+        "retro": 3222.6,
+        "tempo_ms": 8.078280000336235,
+        "pct_resolvido": 100.0
+      },
+      "FC": {
+        "nos": 191.5,
+        "retro": 148.5,
+        "tempo_ms": 1.3762299990048632,
+        "pct_resolvido": 100.0
+      },
+      "FC+MRV": {
+        "nos": 45.0,
+        "retro": 2.0,
+        "tempo_ms": 1.8398500003968365,
+        "pct_resolvido": 100.0
+      },
+      "MAC+MRV": {
+        "nos": 43.1,
+        "retro": 0.1,
+        "tempo_ms": 1.638759999332251,
+        "pct_resolvido": 100.0
+      },
+      "MAC+AllDiff": {
+        "nos": 43.0,
+        "retro": 0.0,
+        "tempo_ms": 24.65739999752259,
+        "pct_resolvido": 100.0
+      },
+      "Min-conflitos": {
+        "pct_resolvido": 50.0,
+        "passos": 13443.1,
+        "conflitos": 2.1,
+        "tempo_ms": 251.1613600014243
+      }
+    },
+    "Médio": {
+      "BT": {
+        "nos": 30035.1,
+        "retro": 29984.1,
+        "tempo_ms": 76.81283000129042,
+        "pct_resolvido": 100.0
+      },
+      "FC": {
+        "nos": 1318.4,
+        "retro": 1267.4,
+        "tempo_ms": 12.62204000086058,
+        "pct_resolvido": 100.0
+      },
+      "FC+MRV": {
+        "nos": 75.0,
+        "retro": 24.0,
+        "tempo_ms": 3.2379999989643693,
+        "pct_resolvido": 100.0
+      },
+      "MAC+MRV": {
+        "nos": 56.1,
+        "retro": 5.1,
+        "tempo_ms": 5.710959999851184,
+        "pct_resolvido": 100.0
+      },
+      "MAC+AllDiff": {
+        "nos": 51.0,
+        "retro": 0.0,
+        "tempo_ms": 50.00189999991562,
+        "pct_resolvido": 100.0
+      },
+      "Min-conflitos": {
+        "pct_resolvido": 30.0,
+        "passos": 18075.9,
+        "conflitos": 2.5,
+        "tempo_ms": 274.03545000051963
+      }
+    },
+    "Difícil": {
+      "BT": {
+        "nos": 181742.6,
+        "retro": 181698.8,
+        "tempo_ms": 338.0139400011103,
+        "pct_resolvido": 60.0
+      },
+      "FC": {
+        "nos": 7815.1,
+        "retro": 7760.1,
+        "tempo_ms": 36.868150000373134,
+        "pct_resolvido": 100.0
+      },
+      "FC+MRV": {
+        "nos": 119.6,
+        "retro": 64.6,
+        "tempo_ms": 2.585079998971196,
+        "pct_resolvido": 100.0
+      },
+      "MAC+MRV": {
+        "nos": 70.2,
+        "retro": 15.2,
+        "tempo_ms": 9.166599999298342,
+        "pct_resolvido": 100.0
+      },
+      "MAC+AllDiff": {
+        "nos": 55.3,
+        "retro": 0.3,
+        "tempo_ms": 41.67904999994789,
+        "pct_resolvido": 100.0
+      },
+      "Min-conflitos": {
+        "pct_resolvido": 0.0,
+        "passos": 20000.0,
+        "conflitos": 4.0,
+        "tempo_ms": 241.5991199995915
+      }
+    },
+    "Muito difícil": {
+      "BT": {
+        "nos": 201320.4,
+        "retro": 201271.9,
+        "tempo_ms": 344.6351999999024,
+        "pct_resolvido": 70.0
+      },
+      "FC": {
+        "nos": 7361.3,
+        "retro": 7304.4,
+        "tempo_ms": 69.35298999887891,
+        "pct_resolvido": 100.0
+      },
+      "FC+MRV": {
+        "nos": 256.4,
+        "retro": 199.5,
+        "tempo_ms": 6.069790000037756,
+        "pct_resolvido": 100.0
+      },
+      "MAC+MRV": {
+        "nos": 123.2,
+        "retro": 66.3,
+        "tempo_ms": 5.90950999976485,
+        "pct_resolvido": 100.0
+      },
+      "MAC+AllDiff": {
+        "nos": 59.0,
+        "retro": 2.1,
+        "tempo_ms": 18.374779999430757,
+        "pct_resolvido": 100.0
+      },
+      "Min-conflitos": {
+        "pct_resolvido": 0.0,
+        "passos": 20000.0,
+        "conflitos": 4.2,
+        "tempo_ms": 223.85746000072686
+      }
+    }
+  },
+  "propagacao": {
+    "Fácil": {
+      "só pistas": {
+        "celulas": 43.2,
+        "pct_resolvido": 0.0
+      },
+      "AC-3": {
+        "celulas": 77.2,
+        "pct_resolvido": 90.0
+      },
+      "AC-3+AllDiff": {
+        "celulas": 81.0,
+        "pct_resolvido": 100.0
+      }
+    },
+    "Médio": {
+      "só pistas": {
+        "celulas": 32.5,
+        "pct_resolvido": 0.0
+      },
+      "AC-3": {
+        "celulas": 49.9,
+        "pct_resolvido": 30.0
+      },
+      "AC-3+AllDiff": {
+        "celulas": 81.0,
+        "pct_resolvido": 100.0
+      }
+    },
+    "Difícil": {
+      "só pistas": {
+        "celulas": 27.4,
+        "pct_resolvido": 0.0
+      },
+      "AC-3": {
+        "celulas": 37.4,
+        "pct_resolvido": 10.0
+      },
+      "AC-3+AllDiff": {
+        "celulas": 68.9,
+        "pct_resolvido": 70.0
+      }
+    },
+    "Muito difícil": {
+      "só pistas": {
+        "celulas": 25.0,
+        "pct_resolvido": 0.0
+      },
+      "AC-3": {
+        "celulas": 31.4,
+        "pct_resolvido": 10.0
+      },
+      "AC-3+AllDiff": {
+        "celulas": 55.9,
+        "pct_resolvido": 40.0
+      }
+    }
+  }
+}

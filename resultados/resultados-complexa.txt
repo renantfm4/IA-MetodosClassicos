@@ -1,0 +1,25 @@
+======================================================================
+RELATÓRIO DE RESULTADOS - PROJETO 3: BUSCA COMPLEXA (TSP)
+======================================================================
+
+=== Experimento 1: 5 instâncias com 12 cidades (ótimo exato) ===
+HC    achou o ótimo em  66.0% das execuções | gap médio=1.17% | gap máx=7.35%
+HC-R  achou o ótimo em 100.0% das execuções | gap médio=0.00% | gap máx=0.00%
+SA    achou o ótimo em 100.0% das execuções | gap médio=0.00% | gap máx=0.00%
+BEAM  achou o ótimo em  99.0% das execuções | gap médio=0.01% | gap máx=0.78%
+
+=== Experimento 2: 50 cidades, 30 execuções por algoritmo ===
+Tour aleatório (média): 2488.4 | Vizinho mais próximo: 636.8
+Melhor comprimento conhecido (todas as execuções): 549.8
+Algoritmo|   Média|  Melhor|    Pior| Desvio| Gap médio| Avaliações| Tempo ms
+HC    |   589.3|   556.1|   632.7|   20.9|      7.2%|      53390|      4.1
+HC-R  |   556.2|   549.8|   567.7|    5.6|      1.2%|    1093014|     66.8
+SA    |   566.2|   549.8|   601.7|   12.6|      3.0%|      90026|    179.8
+BEAM  |   573.2|   549.8|   618.2|   19.8|      4.3%|     491176|     71.8
+
+=== Experimento 3: taxa de resfriamento da SA (10 execuções) ===
+alpha=0.9    média=  630.1 melhor=  584.1 desvio= 32.2 aval=    4305 t=   14.8 ms
+alpha=0.95   média=  601.7 melhor=  576.2 desvio= 22.4 aval=    8809 t=   31.7 ms
+alpha=0.99   média=  567.6 melhor=  549.8 desvio= 11.4 aval=   44902 t=   88.9 ms
+alpha=0.995  média=  568.4 melhor=  549.8 desvio= 14.9 aval=   90005 t=  179.4 ms
+alpha=0.999  média=  553.4 melhor=  549.8 desvio=  4.3 aval=  450921 t=  887.1 ms
